@@ -1,10 +1,10 @@
 | ID # | Location | Problem Description | Category | Severity |
 |---|---|---|---|--|--|
-| 1 | Bear Workshop  | No listing of Author, Date, or File name  | CG | LOW |
-|   |   |   |   |  |  |
-|   |   |   |   |  |  |
-|   |   |   |   |  |  |
-|   |   |   |   |  |  |
-|   |   |   |   |  |  |
-|   |   |   |   |  |  |
-|   |   |   |   |  |  |
+| 1 | BearWorkshop.java  | Missing File Banner (CG 1) | CG | LOW |
+| 2 | Bear.java Line 46 | End Bracket not alone (CG 8a) | CG | Low |
+| 3 | BearWorkshop.java Lines 194-196 | No proper bracket for complex statement (CG 8c) | CG | Low |
+| 4 |   |   |   |  |  |
+| 5 |   |   |   |  |  |
+| 6 |   |   |   |  |  |
+| 7 |   |   |   |  |  |
+| 8 | BearWorkshop.java Lines 128-148 | Bracket Indentation Inconsistent with Rest of File (CG 8b) | CG | Low |
