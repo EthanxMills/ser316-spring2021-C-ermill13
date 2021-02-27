@@ -3,8 +3,8 @@
 | 1 | BearWorkshop.java  | Missing File Banner (CG 1) | CG | LOW |
 | 2 | Bear.java Line 46 | End Bracket not alone (CG 8a) | CG | Low |
 | 3 | BearWorkshop.java Lines 194-196 | No proper bracket for complex statement (CG 8c) | CG | Low |
-| 4 |   |   |   |  |  |
-| 5 |   |   |   |  |  |
-| 6 |   |   |   |  |  |
-| 7 |   |   |   |  |  |
+| 4 | Stuffing.java, "stuffing" method | Switch statement (CS 3)| CS | Low |
+| 5 | Bear.java Line 9 | Variable assigned to Embriodery is called ink | CS | Low |
+| 6 | Bear.java Line 8 | Variable assigned to Stuffing is called stuff, makes sense locally but otherwise could be confusing | CS | Low |
+| 7 | Bear,java Line 57 | the method Double() has been depricated, I think this is meant to be a typecast though not a method call | FD | MJ |
 | 8 | BearWorkshop.java Lines 128-148 | Bracket Indentation Inconsistent with Rest of File (CG 8b) | CG | Low |
