@@ -6,7 +6,7 @@ import java.util.LinkedList;
 public class Bear implements Comparable<Bear>{
     public Casing casing;
     public Stuffing stuff;
-    public Embroidery ink; 
+    public Embroidery stitching; 
     public LinkedList<NoiseMaker> noisemakers; // accessory
     public LinkedList<Clothing> clothing; // accessory
     double price;
@@ -21,7 +21,7 @@ public class Bear implements Comparable<Bear>{
         this.stuff = new Stuffing(stuffing.BASE);
         noisemakers = new LinkedList<>();
         clothing = new LinkedList<>();
-        ink = new Embroidery("");
+        stitching = new Embroidery("");
         price = 0;
     }
 
@@ -30,7 +30,7 @@ public class Bear implements Comparable<Bear>{
         this.stuff = new Stuffing(stuff);
         noisemakers = new LinkedList<>();
         clothing = new LinkedList<>();
-        ink = new Embroidery("");
+        stitching = new Embroidery("");
         price = 0;
     }
 
