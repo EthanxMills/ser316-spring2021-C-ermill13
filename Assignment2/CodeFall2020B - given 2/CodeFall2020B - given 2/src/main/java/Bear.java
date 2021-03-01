@@ -41,7 +41,8 @@ public class Bear implements Comparable<Bear>{
     public boolean addNoise(NoiseMaker noise) {
         if (this.noisemakers.size() >= 5) {
             return false;
-        } else {
+        } 
+        else {
             for (NoiseMaker noisemaker: noisemakers) {
                 if (noise.spot == noisemaker.spot) {
                     return false;
