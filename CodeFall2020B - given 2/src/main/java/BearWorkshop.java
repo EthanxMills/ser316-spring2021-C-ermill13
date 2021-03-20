@@ -36,7 +36,8 @@ public class BearWorkshop implements BearWorkshopInterface{
     @Override
     public double getCost(Bear bear) {
         Collections.sort(bear.clothing);
-        int numFree = bear.clothing.size() / 3;
+        int numFree = 0;//’SER316 TASK 2 SPOTBUGS FIX
+        numFree = bear.clothing.size() / 3;//’SER316 TASK 2 SPOTBUGS FIX
         ArrayList<Clothing> freeClothes = new ArrayList<>();
 
         for (int i = 0; i < bear.clothing.size(); i++) {
@@ -187,11 +188,11 @@ public class BearWorkshop implements BearWorkshopInterface{
         }
         savings += rawCost - cost; // calc delta between raw and prorated cost
 
-        List<Bear> nonFreeBears = new LinkedList<>();
+        List<Bear> nonFreeBears = new LinkedList<Bear>();//SER316 TASK 2 SPOTBUGS FIX
         int counter = 0;
         int numberOfFreeBearsInBearCart = BearCart.size() / 3;
         double discountedCost = 0;
-        Bear freeBear = null;
+        Bear freeBear = new Bear();
 
         System.out.println("Temp Before: " + temp);
         for (int count = 0; count <= numberOfFreeBearsInBearCart; ++count) {

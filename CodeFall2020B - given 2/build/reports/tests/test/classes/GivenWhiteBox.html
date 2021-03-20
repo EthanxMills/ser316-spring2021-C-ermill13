@@ -23,7 +23,7 @@
 <tr>
 <td>
 <div class="infoBox" id="tests">
-<div class="counter">1</div>
+<div class="counter">16</div>
 <p>tests</p>
 </div>
 </td>
@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">0s</div>
+<div class="counter">0.019s</div>
 <p>duration</p>
 </div>
 </td>
@@ -51,7 +51,7 @@
 </td>
 <td>
 <div class="infoBox failures" id="successRate">
-<div class="percent">0%</div>
+<div class="percent">93%</div>
 <p>successful</p>
 </div>
 </td>
@@ -66,19 +66,22 @@
 <li>
 <a href="#tab1">Tests</a>
 </li>
+<li>
+<a href="#tab2">Standard output</a>
+</li>
 </ul>
 <div id="tab0" class="tab">
 <h2>Failed tests</h2>
 <div class="test">
-<a name="checkoutOneBear"></a>
-<h3 class="failures">checkoutOneBear</h3>
+<a name="oneBearWithHatSavings"></a>
+<h3 class="failures">oneBearWithHatSavings</h3>
 <span class="code">
-<pre>java.lang.AssertionError: expected:&lt;5.35&gt; but was:&lt;32.1&gt;
+<pre>java.lang.AssertionError: expected:&lt;15.1&gt; but was:&lt;34.0&gt;
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.failNotEquals(Assert.java:834)
 	at org.junit.Assert.assertEquals(Assert.java:553)
 	at org.junit.Assert.assertEquals(Assert.java:683)
-	at GivenWhiteBox.checkoutOneBear(GivenWhiteBox.java:26)
+	at GivenWhiteBox.oneBearWithHatSavings(GivenWhiteBox.java:176)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -142,11 +145,161 @@
 </tr>
 </thead>
 <tr>
-<td class="failures">checkoutOneBear</td>
-<td class="failures">0s</td>
+<td class="success">RemoveFalseCheese</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">RemoveTrueCheese</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">calcOneBearTwoNoise</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">calcSavingsSixBears</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">checkoutOneBear</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">checkoutOneBearCA</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">checkoutOneBearDC</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">checkoutOneBearDefault</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">checkoutOneBearNY</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">checkoutOneBearStuffing</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">checkoutOneBearTwoNoise</td>
+<td class="success">0.009s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">checkoutOneBearUnderageButWithGaurdian</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">checkoutSixBears</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">checkoutThreeBears</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">oneBearWithHat</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="failures">oneBearWithHatSavings</td>
+<td class="failures">0.001s</td>
 <td class="failures">failed</td>
 </tr>
 </table>
+</div>
+<div id="tab2" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>Temp Before: 90.0
+Temp After: 30.0
+Cost: 90.0
+Temp Before: 0.0
+Temp After: 0.0
+Cost: 0.0
+Temp Before: 30.0
+Temp After: 30.0
+Cost: 30.0
+Temp Before: 40.0
+Temp After: 40.0
+Cost: 40.0
+Temp Before: 40.0
+Temp After: 40.0
+Cost: 40.0
+Temp Before: 30.0
+Temp After: 30.0
+Cost: 30.0
+Temp Before: 30.0
+Temp After: 30.0
+Cost: 30.0
+Temp Before: 180.0
+Temp After: 30.0
+Cost: 180.0
+raw cost: 40.0
+cost: 40.0
+savings: 0.0
+cost again: 40.0
+discountTracker: 0.0
+NumAcc: 1
+AS: 0.0
+Savings: 0.0
+----------------
+Temp Before: 30.0
+Temp After: 30.0
+Cost: 30.0
+Temp Before: 30.0
+Temp After: 30.0
+Cost: 30.0
+Temp Before: 30.0
+Temp After: 30.0
+Cost: 30.0
+raw cost: 180.0
+cost: 180.0
+savings: 0.0
+cost again: 180.0
+discountTracker: 60.0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+AS: 0.0
+Savings: 60.0
+----------------
+Temp Before: 30.0
+Temp After: 30.0
+Cost: 30.0
+Temp Before: 70.0
+Temp After: 70.0
+Cost: 70.0
+raw cost: 90.0
+cost: 70.0
+savings: 20.0
+cost again: 70.0
+discountTracker: 0.0
+NumAcc: 10
+AS: 14.0
+Savings: 20.0
+----------------
+</pre>
+</span>
 </div>
 </div>
 <div id="footer">
@@ -156,7 +309,7 @@
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 6.8.1</a> at Feb 12, 2021, 10:31:41 PM</p>
+<a href="http://www.gradle.org">Gradle 6.8.1</a> at Mar 19, 2021, 11:44:54 PM</p>
 </div>
 </div>
 </body>

@@ -1,13 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="GivenWhiteBox" tests="1" skipped="0" failures="1" errors="0" timestamp="2021-02-13T04:31:40" hostname="DESKTOP-A4VBPBG" time="0.0">
+<testsuite name="GivenWhiteBox" tests="16" skipped="0" failures="1" errors="0" timestamp="2021-03-20T04:44:53" hostname="DESKTOP-A4VBPBG" time="0.02">
   <properties/>
-  <testcase name="checkoutOneBear" classname="GivenWhiteBox" time="0.0">
-    <failure message="java.lang.AssertionError: expected:&lt;5.35&gt; but was:&lt;32.1&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;5.35&gt; but was:&lt;32.1&gt;
+  <testcase name="checkoutThreeBears" classname="GivenWhiteBox" time="0.001"/>
+  <testcase name="RemoveTrueCheese" classname="GivenWhiteBox" time="0.001"/>
+  <testcase name="checkoutOneBear" classname="GivenWhiteBox" time="0.0"/>
+  <testcase name="checkoutOneBearTwoNoise" classname="GivenWhiteBox" time="0.009"/>
+  <testcase name="checkoutOneBearStuffing" classname="GivenWhiteBox" time="0.001"/>
+  <testcase name="RemoveFalseCheese" classname="GivenWhiteBox" time="0.0"/>
+  <testcase name="checkoutOneBearUnderageButWithGaurdian" classname="GivenWhiteBox" time="0.002"/>
+  <testcase name="checkoutSixBears" classname="GivenWhiteBox" time="0.001"/>
+  <testcase name="calcOneBearTwoNoise" classname="GivenWhiteBox" time="0.001"/>
+  <testcase name="checkoutOneBearCA" classname="GivenWhiteBox" time="0.0"/>
+  <testcase name="checkoutOneBearDC" classname="GivenWhiteBox" time="0.0"/>
+  <testcase name="checkoutOneBearNY" classname="GivenWhiteBox" time="0.001"/>
+  <testcase name="calcSavingsSixBears" classname="GivenWhiteBox" time="0.0"/>
+  <testcase name="checkoutOneBearDefault" classname="GivenWhiteBox" time="0.001"/>
+  <testcase name="oneBearWithHat" classname="GivenWhiteBox" time="0.0"/>
+  <testcase name="oneBearWithHatSavings" classname="GivenWhiteBox" time="0.001">
+    <failure message="java.lang.AssertionError: expected:&lt;15.1&gt; but was:&lt;34.0&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;15.1&gt; but was:&lt;34.0&gt;
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.failNotEquals(Assert.java:834)
 	at org.junit.Assert.assertEquals(Assert.java:553)
 	at org.junit.Assert.assertEquals(Assert.java:683)
-	at GivenWhiteBox.checkoutOneBear(GivenWhiteBox.java:26)
+	at GivenWhiteBox.oneBearWithHatSavings(GivenWhiteBox.java:176)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -58,6 +73,75 @@
 	at java.base/java.lang.Thread.run(Thread.java:832)
 </failure>
   </testcase>
-  <system-out><![CDATA[]]></system-out>
+  <system-out><![CDATA[Temp Before: 90.0
+Temp After: 30.0
+Cost: 90.0
+Temp Before: 0.0
+Temp After: 0.0
+Cost: 0.0
+Temp Before: 30.0
+Temp After: 30.0
+Cost: 30.0
+Temp Before: 40.0
+Temp After: 40.0
+Cost: 40.0
+Temp Before: 40.0
+Temp After: 40.0
+Cost: 40.0
+Temp Before: 30.0
+Temp After: 30.0
+Cost: 30.0
+Temp Before: 30.0
+Temp After: 30.0
+Cost: 30.0
+Temp Before: 180.0
+Temp After: 30.0
+Cost: 180.0
+raw cost: 40.0
+cost: 40.0
+savings: 0.0
+cost again: 40.0
+discountTracker: 0.0
+NumAcc: 1
+AS: 0.0
+Savings: 0.0
+----------------
+Temp Before: 30.0
+Temp After: 30.0
+Cost: 30.0
+Temp Before: 30.0
+Temp After: 30.0
+Cost: 30.0
+Temp Before: 30.0
+Temp After: 30.0
+Cost: 30.0
+raw cost: 180.0
+cost: 180.0
+savings: 0.0
+cost again: 180.0
+discountTracker: 60.0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+AS: 0.0
+Savings: 60.0
+----------------
+Temp Before: 30.0
+Temp After: 30.0
+Cost: 30.0
+Temp Before: 70.0
+Temp After: 70.0
+Cost: 70.0
+raw cost: 90.0
+cost: 70.0
+savings: 20.0
+cost again: 70.0
+discountTracker: 0.0
+NumAcc: 10
+AS: 14.0
+Savings: 20.0
+----------------
+]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

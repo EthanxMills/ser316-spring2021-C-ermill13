@@ -1,18 +1,479 @@
-+Easter egg #4: 'Coding is like humor. If 
-(2Easter Egg #6: 'it is bad.' -- Quote Cory House 
-)2Easter Egg #6: 'it is bad.' -- Quote Cory House 
-*#Easter Egg #1: https://youtu.be/ 
-+2Easter Egg #6: 'it is bad.' -- Quote Cory House 
-,2Easter Egg #6: 'it is bad.' -- Quote Cory House 
-.2Easter Egg #6: 'it is bad.' -- Quote Cory House 
-/2Easter Egg #6: 'it is bad.' -- Quote Cory House 
-02Easter Egg #6: 'it is bad.' -- Quote Cory House 
-12Easter Egg #6: 'it is bad.' -- Quote Cory House 
-22Easter Egg #6: 'it is bad.' -- Quote Cory House 
-32Easter Egg #6: 'it is bad.' -- Quote Cory House 
-5#Easter Egg #1: https://youtu.be/ 
-62Easter Egg #6: 'it is bad.' -- Quote Cory House 
-72Easter Egg #6: 'it is bad.' -- Quote Cory House 
-8#Easter Egg #1: https://youtu.be/ 
-92Easter Egg #6: 'it is bad.' -- Quote Cory House 
-:2Easter Egg #6: 'it is bad.' -- Quote Cory House 
+raw cost: 54.0
+cost: 46.0
+savings: 8.0
+cost again: 46.0
+discountTracker: 0.0
+NumAcc: 4
+	AS: 0.0
+Savings: 8.0
+----------------
+raw cost: 30.0
+cost: 30.0
+savings: 0.0
+cost again: 30.0
+discountTracker: 0.0
+NumAcc: 0
+	AS: 0.0
+Savings: 0.0
+----------------
+raw cost: 180.0
+cost: 140.0
+savings: 40.0
+cost again: 140.0
+discountTracker: 0.0
+NumAcc: 10
+NumAcc: 10
+
+AS: 28.0
+Savings: 40.0
+----------------
+raw cost: 34.0
+cost: 30.0
+savings: 4.0
+cost again: 30.0
+discountTracker: 0.0
+NumAcc: 1
+	AS: 0.0
+Savings: 4.0
+----------------
+raw cost: 30.0
+cost: 30.0
+savings: 0.0
+cost again: 30.0
+discountTracker: 0.0
+NumAcc: 0
+	AS: 0.0
+Savings: 0.0
+----------------
+raw cost: 0.0
+cost: 0.0
+savings: 0.0
+cost again: 0.0
+discountTracker: 0.0
+	AS: 0.0
+Savings: 0.0
+----------------
+raw cost: 42.0
+cost: 38.0
+savings: 4.0
+cost again: 38.0
+discountTracker: 0.0
+NumAcc: 2
+	AS: 0.0
+Savings: 4.0
+----------------
+	raw cost: 60.0
+	cost: 60.0
+	savings: 0.0
+	cost again: 60.0
+	discountTracker: 0.0
+	NumAcc: 0
+	NumAcc: 0
+		AS: 0.0
+	Savings: 0.0
+	----------------
+
+raw cost: 84.0
+
+cost: 76.0
+
+savings: 8.0
+
+cost again: 76.0
+
+discountTracker: 0.0
+
+NumAcc: 2
+
+NumAcc: 2
+
+	AS: 0.0
+
+Savings: 8.0
+
+----------------
+raw cost: 108.0
+cost: 92.0
+savings: 16.0
+cost again: 92.0
+discountTracker: 0.0
+NumAcc: 4
+NumAcc: 4
+	AS: 0.0
+Savings: 16.0
+----------------
+raw cost: 9000.0
+cost: 9000.0
+savings: 0.0
+cost again: 9000.0
+discountTracker: 3000.0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+	AS: 0.0
+Savings: 3000.0
+----------------
+raw cost: 120.0
+cost: 120.0
+savings: 0.0
+cost again: 120.0
+discountTracker: 30.0
+NumAcc: 0
+NumAcc: 0
+	AS: 0.0
+Savings: 30.0
+----------------
+raw cost: 0.0
+cost: 0.0
+savings: 0.0
+cost again: 0.0
+discountTracker: 0.0
+	AS: 0.0
+Savings: 0.0
+----------------
+raw cost: 1230.0
+cost: 830.0
+savings: 400.0
+cost again: 830.0
+discountTracker: 0.0
+NumAcc: 200
+AS: 166.0
+Savings: 400.0
+----------------
+raw cost: 50.0
+cost: 42.0
+savings: 8.0
+cost again: 42.0
+discountTracker: 0.0
+NumAcc: 4
+	AS: 0.0
+Savings: 8.0
+----------------
+raw cost: 30.0
+cost: 30.0
+savings: 0.0
+cost again: 30.0
+discountTracker: 0.0
+NumAcc: 0
+	AS: 0.0
+Savings: 0.0
+----------------
+raw cost: 90.0
+cost: 70.0
+savings: 20.0
+cost again: 70.0
+discountTracker: 0.0
+NumAcc: 10
+
+AS: 14.0
+Savings: 20.0
+----------------
+raw cost: 150.0
+cost: 150.0
+savings: 0.0
+cost again: 150.0
+discountTracker: 30.0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+	AS: 0.0
+Savings: 30.0
+----------------
+raw cost: 180.0
+cost: 180.0
+savings: 0.0
+cost again: 180.0
+discountTracker: 60.0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+NumAcc: 0
+	AS: 0.0
+Savings: 60.0
+----------------
+ +Easter egg #4: 'Coding is like humor. If 
+<2Easter Egg #6: 'it is bad.' -- Quote Cory House 
+=2Easter Egg #6: 'it is bad.' -- Quote Cory House 
+>#Easter Egg #1: https://youtu.be/ 
+?2Easter Egg #6: 'it is bad.' -- Quote Cory House 
+@2Easter Egg #6: 'it is bad.' -- Quote Cory House 
+B2Easter Egg #6: 'it is bad.' -- Quote Cory House 
+C2Easter Egg #6: 'it is bad.' -- Quote Cory House 
+D2Easter Egg #6: 'it is bad.' -- Quote Cory House 
+E2Easter Egg #6: 'it is bad.' -- Quote Cory House 
+F2Easter Egg #6: 'it is bad.' -- Quote Cory House 
+G2Easter Egg #6: 'it is bad.' -- Quote Cory House 
+I#Easter Egg #1: https://youtu.be/ 
+J2Easter Egg #6: 'it is bad.' -- Quote Cory House 
+K2Easter Egg #6: 'it is bad.' -- Quote Cory House 
+L#Easter Egg #1: https://youtu.be/ 
+M2Easter Egg #6: 'it is bad.' -- Quote Cory House 
+N2Easter Egg #6: 'it is bad.' -- Quote Cory House 
+vuTemp Before: 90.0
+vuTemp After: 30.0
+vuCost: 90.0
+vwTemp Before: 0.0
+vwTemp After: 0.0
+vwCost: 0.0
+vxTemp Before: 30.0
+vxTemp After: 30.0
+vxCost: 30.0
+vyTemp Before: 40.0
+vyTemp After: 40.0
+vyCost: 40.0
+vzTemp Before: 40.0
+vzTemp After: 40.0
+vzCost: 40.0
+v{Temp Before: 30.0
+v{Temp After: 30.0
+v{Cost: 30.0
+v|Temp Before: 30.0
+v|Temp After: 30.0
+v|Cost: 30.0
+v}Temp Before: 180.0
+v}Temp After: 30.0
+v}Cost: 180.0
+v~raw cost: 40.0
+v~cost: 40.0
+v~savings: 0.0
+v~cost again: 40.0
+v~discountTracker: 0.0
+v~NumAcc: 1
+v~	AS: 0.0
+v~Savings: 0.0
+v~----------------
+vTemp Before: 30.0
+vTemp After: 30.0
+vCost: 30.0
+vÄTemp Before: 30.0
+vÄTemp After: 30.0
+vÄCost: 30.0
+vÅTemp Before: 30.0
+vÅTemp After: 30.0
+vÅCost: 30.0
+vÇraw cost: 180.0
+vÇcost: 180.0
+vÇsavings: 0.0
+vÇcost again: 180.0
+vÇdiscountTracker: 60.0
+vÇNumAcc: 0
+vÇNumAcc: 0
+vÇNumAcc: 0
+vÇNumAcc: 0
+vÇ	AS: 0.0
+vÇSavings: 60.0
+vÇ----------------
+vÉTemp Before: 30.0
+vÉTemp After: 30.0
+vÉCost: 30.0
+vÑTemp Before: 70.0
+vÑTemp After: 70.0
+vÑCost: 70.0
+vÖraw cost: 90.0
+vÖcost: 70.0
+vÖsavings: 20.0
+vÖcost again: 70.0
+vÖdiscountTracker: 0.0
+vÖNumAcc: 10
+vÖ
+AS: 14.0
+vÖSavings: 20.0
+vÖ----------------

@@ -1,6 +1,6 @@
 package main.java;
 
-import main.java.Stuffing.stuffing;
+import main.java.Stuffing.Stuff;
 import java.util.LinkedList;
 
 public class Bear implements Comparable<Bear>{
@@ -18,14 +18,14 @@ public class Bear implements Comparable<Bear>{
 
     public Bear() {
         this.casing = new Casing();
-        this.stuff = new Stuffing(stuffing.BASE);
+        this.stuff = new Stuffing(Stuff.BASE);
         noisemakers = new LinkedList<>();
         clothing = new LinkedList<>();
         ink = new Embroidery("");
         price = 0;
     }
 
-    public Bear(stuffing stuff) {
+    public Bear(Stuff stuff) {
         this.casing = new Casing();
         this.stuff = new Stuffing(stuff);
         noisemakers = new LinkedList<>();
@@ -55,6 +55,65 @@ public class Bear implements Comparable<Bear>{
 
 	@Override
     public int compareTo(Bear bear) {
-        return Double.valueOf(this.price).compareTo(bear.price);
+        return Double.compare(this.price, bear.price); //’SER316 TASK 2 SPOTBUGS FIX
+        
+       
     }
+
+	//SER316 TASK 2 SPOTBUGS FIX
+	@Override
+	public int hashCode() {
+		final int prime = 31;
+		int result = 1;
+		result = prime * result + ((casing == null) ? 0 : casing.hashCode());
+		result = prime * result + ((clothing == null) ? 0 : clothing.hashCode());
+		result = prime * result + ((ink == null) ? 0 : ink.hashCode());
+		result = prime * result + ((noisemakers == null) ? 0 : noisemakers.hashCode());
+		long temp;
+		temp = Double.doubleToLongBits(price);
+		result = prime * result + (int) (temp ^ (temp >>> 32));
+		result = prime * result + ((stuff == null) ? 0 : stuff.hashCode());
+		return result;
+	}
+
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		Bear other = (Bear) obj;
+		if (casing == null) {
+			if (other.casing != null)
+				return false;
+		} else if (!casing.equals(other.casing))
+			return false;
+		if (clothing == null) {
+			if (other.clothing != null)
+				return false;
+		} else if (!clothing.equals(other.clothing))
+			return false;
+		if (ink == null) {
+			if (other.ink != null)
+				return false;
+		} else if (!ink.equals(other.ink))
+			return false;
+		if (noisemakers == null) {
+			if (other.noisemakers != null)
+				return false;
+		} else if (!noisemakers.equals(other.noisemakers))
+			return false;
+		if (Double.doubleToLongBits(price) != Double.doubleToLongBits(other.price))
+			return false;
+		if (stuff == null) {
+			if (other.stuff != null)
+				return false;
+		} else if (!stuff.equals(other.stuff))
+			return false;
+		return true;
+	}
 }
+	
+	

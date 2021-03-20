@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="GivenBlackBox" tests="95" skipped="0" failures="30" errors="0" timestamp="2021-02-13T04:31:40" hostname="DESKTOP-A4VBPBG" time="0.078">
+<testsuite name="GivenBlackBox" tests="95" skipped="0" failures="30" errors="0" timestamp="2021-03-20T04:44:53" hostname="DESKTOP-A4VBPBG" time="0.089">
   <properties/>
-  <testcase name="oneBear6clothes[0]" classname="GivenBlackBox" time="0.012"/>
-  <testcase name="oneBearNegativeClothing[0]" classname="GivenBlackBox" time="0.0"/>
+  <testcase name="oneBear6clothes[0]" classname="GivenBlackBox" time="0.003"/>
+  <testcase name="oneBearNegativeClothing[0]" classname="GivenBlackBox" time="0.001"/>
   <testcase name="twoBear15clotheseach[0]" classname="GivenBlackBox" time="0.0"/>
   <testcase name="oneBearOneClothing[0]" classname="GivenBlackBox" time="0.0"/>
   <testcase name="oneBearZeroClothing[0]" classname="GivenBlackBox" time="0.0"/>
   <testcase name="negativeBearsTest[0]" classname="GivenBlackBox" time="0.001"/>
   <testcase name="oneBearTest3clothingsExpectSaving[0]" classname="GivenBlackBox" time="0.0"/>
   <testcase name="TwoBearsTest[0]" classname="GivenBlackBox" time="0.0"/>
-  <testcase name="twoBearTest3clothingsExpectSaving[0]" classname="GivenBlackBox" time="0.001"/>
+  <testcase name="twoBearTest3clothingsExpectSaving[0]" classname="GivenBlackBox" time="0.0"/>
   <testcase name="twoBear6clotheseach[0]" classname="GivenBlackBox" time="0.0"/>
-  <testcase name="ThreeHundredBearsSaveOnCheapestHundred[0]" classname="GivenBlackBox" time="0.008"/>
-  <testcase name="threeBearsSaveOnCheapest[0]" classname="GivenBlackBox" time="0.003">
+  <testcase name="ThreeHundredBearsSaveOnCheapestHundred[0]" classname="GivenBlackBox" time="0.005"/>
+  <testcase name="threeBearsSaveOnCheapest[0]" classname="GivenBlackBox" time="0.001">
     <failure message="java.lang.AssertionError: expected:&lt;30.0&gt; but was:&lt;40.0&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;30.0&gt; but was:&lt;40.0&gt;
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.failNotEquals(Assert.java:834)
@@ -78,14 +78,14 @@
 	at java.base/java.lang.Thread.run(Thread.java:832)
 </failure>
   </testcase>
-  <testcase name="zeroBearsTest[0]" classname="GivenBlackBox" time="0.0"/>
-  <testcase name="oneBear300clothes[0]" classname="GivenBlackBox" time="0.001"/>
-  <testcase name="oneBear5clothes[0]" classname="GivenBlackBox" time="0.0"/>
-  <testcase name="oneBearNoSavings[0]" classname="GivenBlackBox" time="0.001"/>
+  <testcase name="zeroBearsTest[0]" classname="GivenBlackBox" time="0.001"/>
+  <testcase name="oneBear300clothes[0]" classname="GivenBlackBox" time="0.002"/>
+  <testcase name="oneBear5clothes[0]" classname="GivenBlackBox" time="0.001"/>
+  <testcase name="oneBearNoSavings[0]" classname="GivenBlackBox" time="0.002"/>
   <testcase name="oneBear15clothes[0]" classname="GivenBlackBox" time="0.0"/>
-  <testcase name="FiveBearsTest[0]" classname="GivenBlackBox" time="0.001"/>
-  <testcase name="sixBearsSaveOnCheapest[0]" classname="GivenBlackBox" time="0.0"/>
-  <testcase name="oneBear6clothes[1]" classname="GivenBlackBox" time="0.0">
+  <testcase name="FiveBearsTest[0]" classname="GivenBlackBox" time="0.0"/>
+  <testcase name="sixBearsSaveOnCheapest[0]" classname="GivenBlackBox" time="0.001"/>
+  <testcase name="oneBear6clothes[1]" classname="GivenBlackBox" time="0.001">
     <failure message="java.lang.AssertionError: expected:&lt;8.0&gt; but was:&lt;12.0&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;8.0&gt; but was:&lt;12.0&gt;
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.failNotEquals(Assert.java:834)
@@ -286,7 +286,7 @@
   </testcase>
   <testcase name="oneBearZeroClothing[1]" classname="GivenBlackBox" time="0.0"/>
   <testcase name="negativeBearsTest[1]" classname="GivenBlackBox" time="0.001"/>
-  <testcase name="oneBearTest3clothingsExpectSaving[1]" classname="GivenBlackBox" time="0.0">
+  <testcase name="oneBearTest3clothingsExpectSaving[1]" classname="GivenBlackBox" time="0.001">
     <failure message="java.lang.AssertionError: expected:&lt;4.0&gt; but was:&lt;8.0&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;4.0&gt; but was:&lt;8.0&gt;
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.failNotEquals(Assert.java:834)
@@ -488,7 +488,7 @@
   <testcase name="ThreeHundredBearsSaveOnCheapestHundred[1]" classname="GivenBlackBox" time="0.002"/>
   <testcase name="threeBearsSaveOnCheapest[1]" classname="GivenBlackBox" time="0.0"/>
   <testcase name="zeroBearsTest[1]" classname="GivenBlackBox" time="0.0"/>
-  <testcase name="oneBear300clothes[1]" classname="GivenBlackBox" time="0.001">
+  <testcase name="oneBear300clothes[1]" classname="GivenBlackBox" time="0.002">
     <failure message="java.lang.AssertionError: expected:&lt;483.0&gt; but was:&lt;404.0&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;483.0&gt; but was:&lt;404.0&gt;
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.failNotEquals(Assert.java:834)
@@ -687,11 +687,11 @@
 	at java.base/java.lang.Thread.run(Thread.java:832)
 </failure>
   </testcase>
-  <testcase name="FiveBearsTest[1]" classname="GivenBlackBox" time="0.0"/>
+  <testcase name="FiveBearsTest[1]" classname="GivenBlackBox" time="0.001"/>
   <testcase name="sixBearsSaveOnCheapest[1]" classname="GivenBlackBox" time="0.0"/>
   <testcase name="oneBear6clothes[2]" classname="GivenBlackBox" time="0.001"/>
   <testcase name="oneBearNegativeClothing[2]" classname="GivenBlackBox" time="0.0"/>
-  <testcase name="twoBear15clotheseach[2]" classname="GivenBlackBox" time="0.001"/>
+  <testcase name="twoBear15clotheseach[2]" classname="GivenBlackBox" time="0.0"/>
   <testcase name="oneBearOneClothing[2]" classname="GivenBlackBox" time="0.0">
     <failure message="java.lang.AssertionError: expected:&lt;0.0&gt; but was:&lt;4.0&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;0.0&gt; but was:&lt;4.0&gt;
 	at org.junit.Assert.fail(Assert.java:88)
@@ -758,13 +758,13 @@
 	at java.base/java.lang.Thread.run(Thread.java:832)
 </failure>
   </testcase>
-  <testcase name="oneBearZeroClothing[2]" classname="GivenBlackBox" time="0.0"/>
-  <testcase name="negativeBearsTest[2]" classname="GivenBlackBox" time="0.001"/>
-  <testcase name="oneBearTest3clothingsExpectSaving[2]" classname="GivenBlackBox" time="0.0"/>
+  <testcase name="oneBearZeroClothing[2]" classname="GivenBlackBox" time="0.001"/>
+  <testcase name="negativeBearsTest[2]" classname="GivenBlackBox" time="0.0"/>
+  <testcase name="oneBearTest3clothingsExpectSaving[2]" classname="GivenBlackBox" time="0.001"/>
   <testcase name="TwoBearsTest[2]" classname="GivenBlackBox" time="0.0"/>
   <testcase name="twoBearTest3clothingsExpectSaving[2]" classname="GivenBlackBox" time="0.0"/>
   <testcase name="twoBear6clotheseach[2]" classname="GivenBlackBox" time="0.0"/>
-  <testcase name="ThreeHundredBearsSaveOnCheapestHundred[2]" classname="GivenBlackBox" time="0.001"/>
+  <testcase name="ThreeHundredBearsSaveOnCheapestHundred[2]" classname="GivenBlackBox" time="0.002"/>
   <testcase name="threeBearsSaveOnCheapest[2]" classname="GivenBlackBox" time="0.0"/>
   <testcase name="zeroBearsTest[2]" classname="GivenBlackBox" time="0.0"/>
   <testcase name="oneBear300clothes[2]" classname="GivenBlackBox" time="0.001">
@@ -903,7 +903,7 @@
   <testcase name="oneBear15clothes[2]" classname="GivenBlackBox" time="0.0"/>
   <testcase name="FiveBearsTest[2]" classname="GivenBlackBox" time="0.0"/>
   <testcase name="sixBearsSaveOnCheapest[2]" classname="GivenBlackBox" time="0.0"/>
-  <testcase name="oneBear6clothes[3]" classname="GivenBlackBox" time="0.001">
+  <testcase name="oneBear6clothes[3]" classname="GivenBlackBox" time="0.0">
     <failure message="java.lang.AssertionError: expected:&lt;8.0&gt; but was:&lt;38.0&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;8.0&gt; but was:&lt;38.0&gt;
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.failNotEquals(Assert.java:834)
@@ -1035,7 +1035,7 @@
 	at java.base/java.lang.Thread.run(Thread.java:832)
 </failure>
   </testcase>
-  <testcase name="twoBear15clotheseach[3]" classname="GivenBlackBox" time="0.001">
+  <testcase name="twoBear15clotheseach[3]" classname="GivenBlackBox" time="0.004">
     <failure message="java.lang.AssertionError: expected:&lt;54.0&gt; but was:&lt;108.0&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;54.0&gt; but was:&lt;108.0&gt;
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.failNotEquals(Assert.java:834)
@@ -1233,7 +1233,7 @@
 	at java.base/java.lang.Thread.run(Thread.java:832)
 </failure>
   </testcase>
-  <testcase name="negativeBearsTest[3]" classname="GivenBlackBox" time="0.0"/>
+  <testcase name="negativeBearsTest[3]" classname="GivenBlackBox" time="0.001"/>
   <testcase name="oneBearTest3clothingsExpectSaving[3]" classname="GivenBlackBox" time="0.0">
     <failure message="java.lang.AssertionError: expected:&lt;4.0&gt; but was:&lt;34.0&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;4.0&gt; but was:&lt;34.0&gt;
 	at org.junit.Assert.fail(Assert.java:88)
@@ -1366,7 +1366,7 @@
 	at java.base/java.lang.Thread.run(Thread.java:832)
 </failure>
   </testcase>
-  <testcase name="twoBearTest3clothingsExpectSaving[3]" classname="GivenBlackBox" time="0.001">
+  <testcase name="twoBearTest3clothingsExpectSaving[3]" classname="GivenBlackBox" time="0.0">
     <failure message="java.lang.AssertionError: expected:&lt;8.0&gt; but was:&lt;68.0&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;8.0&gt; but was:&lt;68.0&gt;
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.failNotEquals(Assert.java:834)
@@ -1432,7 +1432,7 @@
 	at java.base/java.lang.Thread.run(Thread.java:832)
 </failure>
   </testcase>
-  <testcase name="twoBear6clotheseach[3]" classname="GivenBlackBox" time="0.0">
+  <testcase name="twoBear6clotheseach[3]" classname="GivenBlackBox" time="0.001">
     <failure message="java.lang.AssertionError: expected:&lt;16.0&gt; but was:&lt;76.0&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;16.0&gt; but was:&lt;76.0&gt;
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.failNotEquals(Assert.java:834)
@@ -1498,7 +1498,7 @@
 	at java.base/java.lang.Thread.run(Thread.java:832)
 </failure>
   </testcase>
-  <testcase name="ThreeHundredBearsSaveOnCheapestHundred[3]" classname="GivenBlackBox" time="0.002">
+  <testcase name="ThreeHundredBearsSaveOnCheapestHundred[3]" classname="GivenBlackBox" time="0.001">
     <failure message="java.lang.AssertionError: expected:&lt;3000.0&gt; but was:&lt;9000.0&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;3000.0&gt; but was:&lt;9000.0&gt;
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.failNotEquals(Assert.java:834)
@@ -1564,7 +1564,7 @@
 	at java.base/java.lang.Thread.run(Thread.java:832)
 </failure>
   </testcase>
-  <testcase name="threeBearsSaveOnCheapest[3]" classname="GivenBlackBox" time="0.0">
+  <testcase name="threeBearsSaveOnCheapest[3]" classname="GivenBlackBox" time="0.001">
     <failure message="java.lang.AssertionError: expected:&lt;30.0&gt; but was:&lt;120.0&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;30.0&gt; but was:&lt;120.0&gt;
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.failNotEquals(Assert.java:834)
@@ -1630,8 +1630,8 @@
 	at java.base/java.lang.Thread.run(Thread.java:832)
 </failure>
   </testcase>
-  <testcase name="zeroBearsTest[3]" classname="GivenBlackBox" time="0.001"/>
-  <testcase name="oneBear300clothes[3]" classname="GivenBlackBox" time="0.0">
+  <testcase name="zeroBearsTest[3]" classname="GivenBlackBox" time="0.0"/>
+  <testcase name="oneBear300clothes[3]" classname="GivenBlackBox" time="0.001">
     <failure message="java.lang.AssertionError: expected:&lt;483.0&gt; but was:&lt;510.0&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;483.0&gt; but was:&lt;510.0&gt;
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.failNotEquals(Assert.java:834)
@@ -1697,7 +1697,7 @@
 	at java.base/java.lang.Thread.run(Thread.java:832)
 </failure>
   </testcase>
-  <testcase name="oneBear5clothes[3]" classname="GivenBlackBox" time="0.001">
+  <testcase name="oneBear5clothes[3]" classname="GivenBlackBox" time="0.0">
     <failure message="java.lang.AssertionError: expected:&lt;4.0&gt; but was:&lt;34.0&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;4.0&gt; but was:&lt;34.0&gt;
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.failNotEquals(Assert.java:834)
@@ -1829,7 +1829,7 @@
 	at java.base/java.lang.Thread.run(Thread.java:832)
 </failure>
   </testcase>
-  <testcase name="oneBear15clothes[3]" classname="GivenBlackBox" time="0.0">
+  <testcase name="oneBear15clothes[3]" classname="GivenBlackBox" time="0.001">
     <failure message="java.lang.AssertionError: expected:&lt;27.0&gt; but was:&lt;54.0&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;27.0&gt; but was:&lt;54.0&gt;
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.failNotEquals(Assert.java:834)
@@ -1961,7 +1961,7 @@
 	at java.base/java.lang.Thread.run(Thread.java:832)
 </failure>
   </testcase>
-  <testcase name="sixBearsSaveOnCheapest[3]" classname="GivenBlackBox" time="0.001">
+  <testcase name="sixBearsSaveOnCheapest[3]" classname="GivenBlackBox" time="0.0">
     <failure message="java.lang.AssertionError: expected:&lt;60.0&gt; but was:&lt;180.0&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;60.0&gt; but was:&lt;180.0&gt;
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.failNotEquals(Assert.java:834)
@@ -2028,16 +2028,16 @@
 </failure>
   </testcase>
   <testcase name="oneBear6clothes[4]" classname="GivenBlackBox" time="0.001"/>
-  <testcase name="oneBearNegativeClothing[4]" classname="GivenBlackBox" time="0.001"/>
-  <testcase name="twoBear15clotheseach[4]" classname="GivenBlackBox" time="0.0"/>
-  <testcase name="oneBearOneClothing[4]" classname="GivenBlackBox" time="0.0"/>
+  <testcase name="oneBearNegativeClothing[4]" classname="GivenBlackBox" time="0.0"/>
+  <testcase name="twoBear15clotheseach[4]" classname="GivenBlackBox" time="0.001"/>
+  <testcase name="oneBearOneClothing[4]" classname="GivenBlackBox" time="0.001"/>
   <testcase name="oneBearZeroClothing[4]" classname="GivenBlackBox" time="0.001"/>
-  <testcase name="negativeBearsTest[4]" classname="GivenBlackBox" time="0.001"/>
+  <testcase name="negativeBearsTest[4]" classname="GivenBlackBox" time="0.002"/>
   <testcase name="oneBearTest3clothingsExpectSaving[4]" classname="GivenBlackBox" time="0.001"/>
   <testcase name="TwoBearsTest[4]" classname="GivenBlackBox" time="0.001"/>
   <testcase name="twoBearTest3clothingsExpectSaving[4]" classname="GivenBlackBox" time="0.001"/>
-  <testcase name="twoBear6clotheseach[4]" classname="GivenBlackBox" time="0.001"/>
-  <testcase name="ThreeHundredBearsSaveOnCheapestHundred[4]" classname="GivenBlackBox" time="0.008"/>
+  <testcase name="twoBear6clotheseach[4]" classname="GivenBlackBox" time="0.0"/>
+  <testcase name="ThreeHundredBearsSaveOnCheapestHundred[4]" classname="GivenBlackBox" time="0.002"/>
   <testcase name="threeBearsSaveOnCheapest[4]" classname="GivenBlackBox" time="0.0"/>
   <testcase name="zeroBearsTest[4]" classname="GivenBlackBox" time="0.0"/>
   <testcase name="oneBear300clothes[4]" classname="GivenBlackBox" time="0.001"/>
@@ -2045,7 +2045,7 @@
   <testcase name="oneBearNoSavings[4]" classname="GivenBlackBox" time="0.001"/>
   <testcase name="oneBear15clothes[4]" classname="GivenBlackBox" time="0.001"/>
   <testcase name="FiveBearsTest[4]" classname="GivenBlackBox" time="0.001"/>
-  <testcase name="sixBearsSaveOnCheapest[4]" classname="GivenBlackBox" time="0.0"/>
+  <testcase name="sixBearsSaveOnCheapest[4]" classname="GivenBlackBox" time="0.001"/>
   <system-out><![CDATA[Easter egg #4: 'Coding is like humor. If 
 Easter Egg #6: 'it is bad.' -- Quote Cory House 
 Easter Egg #6: 'it is bad.' -- Quote Cory House 

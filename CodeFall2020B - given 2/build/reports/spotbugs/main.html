@@ -1,0 +1,291 @@
+
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+      <title>SpotBugs Report</title>
+      <style type="text/css">
+		.tablerow0 {
+			background: #EEEEEE;
+		}
+
+		.tablerow1 {
+			background: white;
+		}
+
+		.detailrow0 {
+			background: #EEEEEE;
+		}
+
+		.detailrow1 {
+			background: white;
+		}
+
+		.tableheader {
+			background: #b9b9fe;
+			font-size: larger;
+		}
+
+		.tablerow0:hover, .tablerow1:hover {
+			background: #aaffaa;
+		}
+
+		.priority-1 {
+				color: red;
+				font-weight: bold;
+		}
+		.priority-2 {
+				color: orange;
+				font-weight: bold;
+		}
+		.priority-3 {
+				color: green;
+				font-weight: bold;
+		}
+		.priority-4 {
+				color: blue;
+				font-weight: bold;
+		}
+		</style>
+      <script type="text/javascript">
+			function toggleRow(elid) {
+				if (document.getElementById) {
+					element = document.getElementById(elid);
+					if (element) {
+						if (element.style.display == 'none') {
+							element.style.display = 'block';
+							//window.status = 'Toggle on!';
+						} else {
+							element.style.display = 'none';
+							//window.status = 'Toggle off!';
+						}
+					}
+				}
+			}
+		</script>
+   </head>
+   <body>
+      <h1>
+         <a href="https://spotbugs.github.io/">SpotBugs</a> Report</h1>
+      <h2>Project Information</h2>
+      <p>Project: 
+		CodeFall2020B - given 2 (spotbugsMain)</p>
+      <p>SpotBugs version: 4.2.2</p>
+      <p>Code analyzed:</p>
+      <ul>
+         <li>C:\Users\wesle\Downloads\ser316-spring2021-C-ermill13-StaticAnalysis (1)\ser316-spring2021-C-ermill13-StaticAnalysis\CodeFall2020B - given 2\build\classes\java\main\main\java\Bear.class</li>
+         <li>C:\Users\wesle\Downloads\ser316-spring2021-C-ermill13-StaticAnalysis (1)\ser316-spring2021-C-ermill13-StaticAnalysis\CodeFall2020B - given 2\build\classes\java\main\main\java\BearWorkshop.class</li>
+         <li>C:\Users\wesle\Downloads\ser316-spring2021-C-ermill13-StaticAnalysis (1)\ser316-spring2021-C-ermill13-StaticAnalysis\CodeFall2020B - given 2\build\classes\java\main\main\java\BearWorkshopInterface.class</li>
+         <li>C:\Users\wesle\Downloads\ser316-spring2021-C-ermill13-StaticAnalysis (1)\ser316-spring2021-C-ermill13-StaticAnalysis\CodeFall2020B - given 2\build\classes\java\main\main\java\Casing.class</li>
+         <li>C:\Users\wesle\Downloads\ser316-spring2021-C-ermill13-StaticAnalysis (1)\ser316-spring2021-C-ermill13-StaticAnalysis\CodeFall2020B - given 2\build\classes\java\main\main\java\Clothing.class</li>
+         <li>C:\Users\wesle\Downloads\ser316-spring2021-C-ermill13-StaticAnalysis (1)\ser316-spring2021-C-ermill13-StaticAnalysis\CodeFall2020B - given 2\build\classes\java\main\main\java\Customer.class</li>
+         <li>C:\Users\wesle\Downloads\ser316-spring2021-C-ermill13-StaticAnalysis (1)\ser316-spring2021-C-ermill13-StaticAnalysis\CodeFall2020B - given 2\build\classes\java\main\main\java\Embroidery.class</li>
+         <li>C:\Users\wesle\Downloads\ser316-spring2021-C-ermill13-StaticAnalysis (1)\ser316-spring2021-C-ermill13-StaticAnalysis\CodeFall2020B - given 2\build\classes\java\main\main\java\Main.class</li>
+         <li>C:\Users\wesle\Downloads\ser316-spring2021-C-ermill13-StaticAnalysis (1)\ser316-spring2021-C-ermill13-StaticAnalysis\CodeFall2020B - given 2\build\classes\java\main\main\java\NoiseMaker$1.class</li>
+         <li>C:\Users\wesle\Downloads\ser316-spring2021-C-ermill13-StaticAnalysis (1)\ser316-spring2021-C-ermill13-StaticAnalysis\CodeFall2020B - given 2\build\classes\java\main\main\java\NoiseMaker$Location.class</li>
+         <li>C:\Users\wesle\Downloads\ser316-spring2021-C-ermill13-StaticAnalysis (1)\ser316-spring2021-C-ermill13-StaticAnalysis\CodeFall2020B - given 2\build\classes\java\main\main\java\NoiseMaker.class</li>
+         <li>C:\Users\wesle\Downloads\ser316-spring2021-C-ermill13-StaticAnalysis (1)\ser316-spring2021-C-ermill13-StaticAnalysis\CodeFall2020B - given 2\build\classes\java\main\main\java\Stuffing$1.class</li>
+         <li>C:\Users\wesle\Downloads\ser316-spring2021-C-ermill13-StaticAnalysis (1)\ser316-spring2021-C-ermill13-StaticAnalysis\CodeFall2020B - given 2\build\classes\java\main\main\java\Stuffing$Stuff.class</li>
+         <li>C:\Users\wesle\Downloads\ser316-spring2021-C-ermill13-StaticAnalysis (1)\ser316-spring2021-C-ermill13-StaticAnalysis\CodeFall2020B - given 2\build\classes\java\main\main\java\Stuffing.class</li>
+      </ul>
+      <p>
+         <br/>
+         <br/>
+      </p>
+      <h2>Metrics</h2>
+      <p>450 lines of code analyzed,
+	in 14 classes, 
+	in 1 packages.</p>
+      <table width="500" cellpadding="5" cellspacing="2">
+         <tr class="tableheader">
+            <th align="left">Metric</th>
+            <th align="right">Total</th>
+            <th align="right">Density*</th>
+         </tr>
+         <tr class="tablerow0">
+            <td>High Priority Warnings</td>
+            <td align="right">1</td>
+            <td align="right">2.22</td>
+         </tr>
+         <tr class="tablerow1">
+            <td>Medium Priority Warnings</td>
+            <td align="right">5</td>
+            <td align="right">11.11</td>
+         </tr>
+         <tr class="$totalClass">
+            <td>
+               <b>Total Warnings</b>
+            </td>
+            <td align="right">
+               <b>6</b>
+            </td>
+            <td align="right">
+               <b>13.33</b>
+            </td>
+         </tr>
+      </table>
+      <p>
+         <i>(* Defects per Thousand lines of non-commenting source statements)</i>
+      </p>
+      <p>
+         <br/>
+         <br/>
+      </p>
+      <h2>Contents</h2>
+      <ul>
+         <li>
+            <a href="#Warnings_STYLE">Dodgy code Warnings</a>
+         </li>
+         <li>
+            <a href="#Details">Details</a>
+         </li>
+      </ul>
+      <h1>Summary</h1>
+      <table width="500" cellpadding="5" cellspacing="2">
+         <tr class="tableheader">
+            <th align="left">Warning Type</th>
+            <th align="right">Number</th>
+         </tr>
+         <tr class="tablerow0">
+            <td>
+               <a href="#Warnings_STYLE">Dodgy code Warnings</a>
+            </td>
+            <td align="right">6</td>
+         </tr>
+         <tr class="tablerow1">
+            <td>
+               <b>Total</b>
+            </td>
+            <td align="right">
+               <b>6</b>
+            </td>
+         </tr>
+      </table>
+      <h1>Warnings</h1>
+      <p>Click on a warning row to see full context information.</p>
+      <h2>
+         <a name="Warnings_STYLE">Dodgy code Warnings</a>
+      </h2>
+      <table class="warningtable" width="100%" cellspacing="0">
+         <tr class="tableheader">
+            <th align="left">Code</th>
+            <th align="left">Warning</th>
+         </tr>
+         <tr class="tablerow1" onclick="toggleRow('d1e23');">
+            <td>
+               <span class="priority-1">DLS</span>
+            </td>
+            <td>Dead store to nonFreeBears in main.java.BearWorkshop.checkout()</td>
+         </tr>
+         <tr class="detailrow1">
+            <td/>
+            <td>
+               <p id="d1e23" style="display: none;">
+                  <a href="#DLS_DEAD_LOCAL_STORE">Bug type DLS_DEAD_LOCAL_STORE (click for details)</a>
+                  <br/>In class main.java.BearWorkshop<br/>In method main.java.BearWorkshop.checkout()<br/>Local variable named nonFreeBears<br/>At BearWorkshop.java:[line 191]</p>
+            </td>
+         </tr>
+         <tr class="tablerow0" onclick="toggleRow('d1e40');">
+            <td>
+               <span class="priority-2">DLS</span>
+            </td>
+            <td>Dead store to numFree in main.java.BearWorkshop.getCost(Bear)</td>
+         </tr>
+         <tr class="detailrow0">
+            <td/>
+            <td>
+               <p id="d1e40" style="display: none;">
+                  <a href="#DLS_DEAD_LOCAL_STORE">Bug type DLS_DEAD_LOCAL_STORE (click for details)</a>
+                  <br/>In class main.java.BearWorkshop<br/>In method main.java.BearWorkshop.getCost(Bear)<br/>Local variable named numFree<br/>At BearWorkshop.java:[line 40]</p>
+            </td>
+         </tr>
+         <tr class="tablerow1" onclick="toggleRow('d1e111');">
+            <td>
+               <span class="priority-2">DLS</span>
+            </td>
+            <td>Dead store to polyStuffing in new main.java.Stuffing(Stuffing$Stuff)</td>
+         </tr>
+         <tr class="detailrow1">
+            <td/>
+            <td>
+               <p id="d1e111" style="display: none;">
+                  <a href="#DLS_DEAD_LOCAL_STORE">Bug type DLS_DEAD_LOCAL_STORE (click for details)</a>
+                  <br/>In class main.java.Stuffing<br/>In method new main.java.Stuffing(Stuffing$Stuff)<br/>Local variable named polyStuffing<br/>At Stuffing.java:[line 18]<br/>Another occurrence at Stuffing.java:[line 22]<br/>Another occurrence at Stuffing.java:[line 26]</p>
+            </td>
+         </tr>
+         <tr class="tablerow0" onclick="toggleRow('d1e57');">
+            <td>
+               <span class="priority-2">UC</span>
+            </td>
+            <td>Useless object stored in variable freeClothes of method main.java.BearWorkshop.calculateSavings()</td>
+         </tr>
+         <tr class="detailrow0">
+            <td/>
+            <td>
+               <p id="d1e57" style="display: none;">
+                  <a href="#UC_USELESS_OBJECT">Bug type UC_USELESS_OBJECT (click for details)</a>
+                  <br/>In class main.java.BearWorkshop<br/>In method main.java.BearWorkshop.calculateSavings()<br/>Value freeClothes<br/>Type java.util.ArrayList<br/>At BearWorkshop.java:[line 249]</p>
+            </td>
+         </tr>
+         <tr class="tablerow1" onclick="toggleRow('d1e75');">
+            <td>
+               <span class="priority-2">UC</span>
+            </td>
+            <td>Useless object stored in variable freeClothes of method main.java.BearWorkshop.calculateSavings()</td>
+         </tr>
+         <tr class="detailrow1">
+            <td/>
+            <td>
+               <p id="d1e75" style="display: none;">
+                  <a href="#UC_USELESS_OBJECT">Bug type UC_USELESS_OBJECT (click for details)</a>
+                  <br/>In class main.java.BearWorkshop<br/>In method main.java.BearWorkshop.calculateSavings()<br/>Value freeClothes<br/>Type java.util.ArrayList<br/>At BearWorkshop.java:[line 331]</p>
+            </td>
+         </tr>
+         <tr class="tablerow0" onclick="toggleRow('d1e93');">
+            <td>
+               <span class="priority-2">UC</span>
+            </td>
+            <td>Useless object stored in variable freeClothes of method main.java.BearWorkshop.getCost(Bear)</td>
+         </tr>
+         <tr class="detailrow0">
+            <td/>
+            <td>
+               <p id="d1e93" style="display: none;">
+                  <a href="#UC_USELESS_OBJECT">Bug type UC_USELESS_OBJECT (click for details)</a>
+                  <br/>In class main.java.BearWorkshop<br/>In method main.java.BearWorkshop.getCost(Bear)<br/>Value freeClothes<br/>Type java.util.ArrayList<br/>At BearWorkshop.java:[line 41]</p>
+            </td>
+         </tr>
+      </table>
+      <h1>
+         <a name="Details">Details</a>
+      </h1>
+      <h2>
+         <a name="DLS_DEAD_LOCAL_STORE">DLS_DEAD_LOCAL_STORE: Dead store to local variable</a>
+      </h2>
+
+<p>
+This instruction assigns a value to a local variable,
+but the value is not read or used in any subsequent instruction.
+Often, this indicates an error, because the value computed is never
+used.
+</p>
+<p>
+Note that Sun's javac compiler often generates dead stores for
+final local variables.  Because SpotBugs is a bytecode-based tool,
+there is no easy way to eliminate these false positives.
+</p>
+
+    <h2>
+         <a name="UC_USELESS_OBJECT">UC_USELESS_OBJECT: Useless object created</a>
+      </h2>
+
+<p>Our analysis shows that this object is useless.
+It's created and modified, but its value never go outside of the method or produce any side-effect.
+Either there is a mistake and object was intended to be used or it can be removed.</p>
+<p>This analysis rarely produces false-positives. Common false-positive cases include:</p>
+<p>- This object used to implicitly throw some obscure exception.</p>
+<p>- This object used as a stub to generalize the code.</p>
+<p>- This object used to hold strong references to weak/soft-referenced objects.</p>
+
+    </body>
+</html>
