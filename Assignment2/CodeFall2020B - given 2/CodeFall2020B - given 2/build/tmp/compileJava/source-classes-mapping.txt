@@ -1,0 +1,16 @@
+Casing.java
+ main.java.Casing
+NoiseMaker.java
+ main.java.NoiseMaker
+ main.java.NoiseMaker$1
+ main.java.NoiseMaker$Location
+Bear.java
+ main.java.Bear
+Clothing.java
+ main.java.Clothing
+Embroidery.java
+ main.java.Embroidery
+Stuffing.java
+ main.java.Stuffing
+ main.java.Stuffing$1
+ main.java.Stuffing$stuffing
