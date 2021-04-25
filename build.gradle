@@ -3,12 +3,14 @@
 //     id "checkstyle"
 // }
 
-apply plugin: 'application'
-apply plugin: 'jacoco'
-
 plugins {
     id 'pmd'
 }
+
+apply plugin: 'application'
+apply plugin: 'jacoco'
+
+
 
 mainClassName = 'main.java.Main'
 
