@@ -1,6 +1,9 @@
-plugins {
-   id "com.github.spotbugs" version "4.5.1"
+//plugins {
+   //id "com.github.spotbugs" version "4.5.1"
    //id "checkstyle"
+//}
+plugins {
+    id 'pmd'
 }
 
 apply plugin: 'application'
@@ -12,7 +15,7 @@ mainClassName = 'main.java.Main'
 
 // In this section you declare where to find the dependencies of your project
 repositories {
-    jcenter()
+    mavenCentral()
 }
 
 // In this section you declare the dependencies for your production and test code
@@ -21,6 +24,14 @@ dependencies {
     compile files('cls/')
 }
 
+apply plugin: "pmd"
+pmd {
+  ignoreFailures = true 
+  sourceSets = [sourceSets.main]
+  reportsDir = file("$project.buildDir/reports/pmd")
+  ruleSets = []
+  ruleSetConfig = resources.text.fromFile('ruleset.xml')
+}
 
 ///////////////////////////////////////////////////////////////////////
 //Configure Checkstyle
