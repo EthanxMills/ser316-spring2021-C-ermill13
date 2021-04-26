@@ -36,8 +36,8 @@ public class BearWorkshop implements BearWorkshopInterface{
     @Override
     public double getCost(Bear bear) {
         Collections.sort(bear.clothing);
-        int numFree = 0;//’SER316 TASK 2 SPOTBUGS FIX
-        numFree = bear.clothing.size() / 3;//’SER316 TASK 2 SPOTBUGS FIX
+        int numFree = 0;//ï¿½SER316 TASK 2 SPOTBUGS FIX
+        numFree = bear.clothing.size() / 3;//ï¿½SER316 TASK 2 SPOTBUGS FIX
         ArrayList<Clothing> freeClothes = new ArrayList<>();
 
         for (int i = 0; i < bear.clothing.size(); i++) {
@@ -103,9 +103,6 @@ public class BearWorkshop implements BearWorkshopInterface{
                 break;
             case "NY":
                 tax = 1.09;
-                break;
-            case "VA":
-                tax = 1.05;
                 break;
             case "DC":
                 tax = 1.105;
