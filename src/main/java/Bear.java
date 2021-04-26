@@ -1,4 +1,4 @@
-import Stuffing.stuffing;
+import main.java.Stuffing.stuffing;
 import java.util.LinkedList;
 
 public class Bear implements Comparable<Bear>{
